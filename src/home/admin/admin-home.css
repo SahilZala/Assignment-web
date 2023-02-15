@@ -1,0 +1,36 @@
+.admin-container .navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.admin-container .main-container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.admin-container .main-container .head{
+    color: black;
+    font-weight: 600;
+    font-size: 20px;
+    border: 2px black solid;
+    padding: 15px;
+
+}
+
+.admin-container .main-container .body{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    border: 1px grey solid;
+    padding: 15px;
+
+}
+
+.admin-container .main-container p{
+    color: black;
+    font-weight: 500;
+    font-size: 35px;
+    
+
+}
