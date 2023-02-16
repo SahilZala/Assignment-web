@@ -74,6 +74,7 @@ class AdminHomeClass extends React.Component {
                             <TableCell className="head">Geo-Location</TableCell>
                             <TableCell className="head">Login</TableCell>
                             <TableCell className="head">Logout</TableCell>
+                            <TableCell className="head">Device</TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
@@ -84,6 +85,7 @@ class AdminHomeClass extends React.Component {
                                 <TableCell className="body">{data.geoLocation}</TableCell>
                                 <TableCell className="body">{data.loginTime}</TableCell>
                                 <TableCell className="body">{data.logoutTime}</TableCell>
+                                <TableCell className="body">{data.device === null ? 'no data' : data.device}</TableCell>
                             </TableRow>);
                         })}
                         

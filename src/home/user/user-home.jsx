@@ -7,7 +7,7 @@ class UserHomeClass extends React.Component {
         super(props);
         this.web = new WebTransaction();
         this.state = {
-            token: "n"
+            token: ""
         }
         
     }
